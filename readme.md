@@ -1,0 +1,1 @@
+BlackJack game made using JavaScript and a bit of jQuery. Work in progress - Aces are still a bit buggy.

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Blackjack</title>
+	<link rel="stylesheet" href="main.css">
+</head>
+<body>
+	<input type="text" id="player_name_entry" placeholder="Name..."><button id="new_game">Start a New Game!</button>
+
+	<div class="dealer_space">
+		<h1>Dealer</h1>
+		<div class="dealer_cards"></div>
+	</div>
+
+	<div class="player_space">
+		<h1 id="player_name"></h1>
+		<div class="player_cards"></div>
+		<div id="options">
+			<button id="hit">Hit</button>
+			<button id="stay">Stay</button>
+		</div>
+		<h3 id="message"></h3>
+		<h4 id="scores"></h4>
+		<button id="play-again">Play Again?</button>
+	</div>
+	<script src="js/jquery-1.11.2.js"></script>
+	<script src="js/blackjack.js"></script>
+</body>
+</html>
